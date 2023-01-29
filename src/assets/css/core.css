@@ -1,0 +1,30 @@
+/* Containers */
+.container{
+    margin: 0 auto;
+    width: 95%;
+}
+
+/* Navbar */
+.navbar{
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+}
+.navbar img{
+    cursor: pointer;
+}
+.navbar .active{
+    color: var(--routeActiveColor);
+}
+.navbar a{
+    color: #000;
+    text-decoration: none;
+    padding: 0 32px;
+}
+
+/* Footer */
+.footer{
+    margin-top: 2rem;
+}
